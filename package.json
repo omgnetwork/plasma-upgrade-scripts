@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "consolidate": "node desposit.js",
+    "consolidate": "node consolidate.js",
     "exit": "node start-exit.js",
     "process": "node process-exit.js",
     "deposit": "node deposit.js"
