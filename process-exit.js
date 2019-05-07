@@ -19,7 +19,7 @@ const config = require('./config')
 const { transaction } = require('@omisego/omg-js-util')
 
 const web3 = new Web3(new Web3.providers.HttpProvider(config.ETH_CLIENT))
-const rootChain = new RootChain(web3, config.NEW_CONTRACT)
+const rootChain = new RootChain(web3, config.OLD_CONTRACT)
 
 async function processExit(index, numberToProcess) {
   try {

@@ -42,7 +42,7 @@ IMPORTANT: the current implementation of UTXO consolidation is done through a co
 
 ### Starting Exits
 
-Now that we only have a single UTXO to deal with. Let's call an exit on the smart contract
+Now that we only have a single UTXO to deal with. Let's call an exit on the smart contract. Make sure that you have some ETH on the rootchain
 
 `npm run exit`
 
