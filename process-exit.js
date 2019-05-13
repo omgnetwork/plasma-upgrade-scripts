@@ -29,8 +29,7 @@ async function processExit(index, numberToProcess) {
       numberToProcess,
       {
         privateKey: config.PRIVATEKEY,
-        from: config.ADDRESS,
-        gas: 200000
+        from: config.ADDRESS
       }
     )
     console.log(`Processed ${numberToProcess} Exit(s): ${receipt.transactionHash}`)
